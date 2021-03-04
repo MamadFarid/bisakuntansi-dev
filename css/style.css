@@ -1,0 +1,327 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+button,
+input,
+textarea,
+label,
+option,
+select,
+li {
+    font-family: "Poppins", sans-serif !important;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+/* font weight */
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+/* fonts */
+.f-10 {
+    font-size: 10px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-21 {
+    font-size: 21px;
+}
+
+.f-22 {
+    font-size: 22px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-26 {
+    font-size: 26px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.f-36 {
+    font-size: 36px;
+}
+
+.f-38 {
+    font-size: 38px;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+/* margin */
+.mx-1 {
+    margin: 0px 1px;
+}
+
+.mx-2 {
+    margin: 0px 2px;
+}
+
+.mx-3 {
+    margin: 0px 3px;
+}
+
+.mx-4 {
+    margin: 0px 4px;
+}
+
+.mx-5 {
+    margin: 0px 5px;
+}
+
+.my-1 {
+    margin: 1px 0px;
+}
+
+.my-2 {
+    margin: 2px 0px;
+}
+
+.my-3 {
+    margin: 3px 0px;
+}
+
+.my-4 {
+    margin: 4px 0px;
+}
+
+.my-5 {
+    margin: 5px 0px;
+}
+
+/* padding */
+.py-20 {
+    padding: 20px 0px;
+}
+
+.py-30 {
+    padding: 30px 0px;
+}
+
+.py-40 {
+    padding: 40px 0px;
+}
+
+.py-50 {
+    padding: 50px 0px;
+}
+
+.py-60 {
+    padding: 60px 0px;
+}
+
+.py-70 {
+    padding: 70px 0px;
+}
+
+.py-80 {
+    padding: 80px 0px;
+}
+
+/* ======================================== Bootstrap Custom ========================================== */
+
+/* custom colors */
+.txt-success {
+    color: #42a3a7 !important;
+}
+
+.btn-success,
+.background-success,
+.badge-success {
+    background-color: #42a3a7 !important;
+}
+
+.txt-dark {
+    color: #152238 !important;
+}
+
+.btn-dark,
+.background-dark,
+.badge-dark {
+    background-color: #152238 !important;
+}
+
+.txt-grey {
+    color: #F9F9F9 !important;
+}
+
+.btn-grey,
+.background-grey,
+.badge-grey {
+    background-color: #F9F9F9 !important;
+}
+
+.background-white,
+.navbar-light {
+    background-color: #ffffff !important;
+}
+
+
+/* custom navbar */
+.navbar {
+    padding: 15px 30px !important;
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0) !important;
+}
+
+/* button */
+.btn-success {
+    border-color: #42a3a7 !important;
+}
+
+.btn-success:hover {
+    border-color: #36999c !important;
+    background-color: #36999c !important;
+}
+
+.btn {
+    padding: 6px 20px !important;
+}
+
+.btn-sm {
+    padding: 4px 12px !important;
+}
+
+:focus:not(:focus-visible) {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+    -webkit-box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+    -moz-box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+}
+
+/* badge */
+.badge {
+    padding: 4px 10px !important;
+    border-radius: 50px !important;
+    font-weight: unset !important;
+}
+
+/* custom card */
+.card {
+    border: 1px solid #F9F9F9 !important;
+    border-radius: 20px !important;
+}
+
+.card-header {
+    border: unset !important;
+    background-color: #ffffff !important;
+}
+
+/* ======================================== original class ========================================== */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.btn-hover-none {
+    box-shadow: none !important;
+}
+
+.title-header{
+    color: #152238;
+}
+
+.shadow-lg {
+    box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+    -webkit-box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+    -moz-box-shadow: 3px 3px 13px 1px rgba(212, 212, 212, 0.5);
+}
+
+.shadow-md {
+    box-shadow: 5px 5px 30px -3px rgba(217,217,217,0.5);
+    -webkit-box-shadow: 5px 5px 30px -3px rgba(217,217,217,0.5);
+    -moz-box-shadow: 5px 5px 30px -3px rgba(217,217,217,0.5);
+}
+
+.class-card-image {
+    height: 180px;
+}
+
+.class-item-animation:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 100px -66px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 100px -66px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 100px -66px rgba(0,0,0,0.75);
+}
